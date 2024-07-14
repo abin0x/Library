@@ -36,7 +36,7 @@ SECRET_KEY = 'django-insecure-qh#b9w^jyz)o8-fwxg0bkj9-5wnid0!l#%fk+s6=o#@e$rzhf&
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-
+CSRF_TRUSTED_ORIGINS = ['https://library-wm5w.onrender.com','https://*.127.0.0.1']
 
 # Application definition
 
