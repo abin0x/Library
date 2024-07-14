@@ -99,12 +99,12 @@ WSGI_APPLICATION = 'library_management.wsgi.application'
 #     }
 # }
 
-# DATABASES = {
-#     'default': dj_database_url.config(
-#         default='postgresql:877g49g-a.oregon-postgres.render.com/mamank_2jke',
+DATABASES = {
+    'default': dj_database_url.config(
+        default='postgresql://library_ha2t_user:2rtzpNtqIgkyUke7bzCtvaYOlXQ9zbyk@dpg-cq9p62jv2p9s73cm040g-a.oregon-postgres.render.com/library_ha2t',
         
-#     )
-# }
+    )
+}
 
 
 # Password validation
